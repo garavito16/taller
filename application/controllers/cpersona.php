@@ -72,7 +72,7 @@ class Cpersona extends CI_Controller
 			redirect('cpersona');
 		}
 	}
-
+	// Hola mundo
 	function eliminarPersona(){
 		$this->form_validation->set_rules('id', 'id', 'required');
 		if($this->form_validation->run()!=FALSE){
